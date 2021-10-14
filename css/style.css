@@ -7,11 +7,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    color: white;
+}
+
 /* **** header **** */
 
 header {
+    height: 50px;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     padding-right: 8px;
 }
 
@@ -31,7 +37,53 @@ header .speaker i {
 
 /* **** main **** */
 
+main {
+    height: calc(100vh - 130px);
+    display: flex;
+}
+
+main .caret {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .caret i {
+    font-size: 48px;
+    color: #7f7f7f;
+}
+
+main .caret i.active {
+    color: #2ebaff;
+}
+
+main .caret span {
+    font-size: 14px;
+}
+
+main .center-col {
+    width: 90%;
+}
+
 /* **** footer **** */
+
+footer {
+    height: 80px;
+}
 
 /* debug */
 
+main.debug {
+    background-color: beige;
+}
+
+.debug .caret,
+.debug .center-col {
+    border: 1px solid black;
+}
+
+footer.debug {
+    background-color: blueviolet;
+}
