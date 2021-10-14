@@ -8,6 +8,12 @@
 }
 
 body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
     color: white;
 }
 
@@ -40,6 +46,7 @@ header .speaker i {
 main {
     height: calc(100vh - 130px);
     display: flex;
+    padding-bottom: 40px;
 }
 
 main .caret {
@@ -48,6 +55,14 @@ main .caret {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main .caret:first-child {
+    padding-right: 8px;
+}
+
+main .caret:last-child {
+    padding-left: 8px;
 }
 
 main .caret i {
@@ -72,7 +87,18 @@ main .center-col {
 }
 
 main .center-col .box {
+    height: 19%;
     width: 19.5%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../img/zoom-user.png);
+    background-size: cover;
+}
+
+main .center-col .box .user-name {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1px 4px;
 }
 
 /* **** footer **** */
