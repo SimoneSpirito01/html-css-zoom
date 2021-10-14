@@ -9,6 +9,26 @@
 
 /* **** header **** */
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+header .speaker,
+header .fs {
+    font-size: 14px;
+    color: white;
+    background: linear-gradient(#3d3d3d, #1f1f1f);
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin: 7px 2px;
+}
+
+header .speaker i {
+    padding-right: 5px;
+}
+
 /* **** main **** */
 
 /* **** footer **** */
