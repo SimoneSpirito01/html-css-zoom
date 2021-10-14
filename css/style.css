@@ -30,6 +30,7 @@ header .fs {
     border-radius: 5px;
     padding: 4px 8px;
     margin: 7px 2px;
+    cursor: pointer;
 }
 
 header .speaker i {
@@ -53,6 +54,7 @@ main .caret {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 main .caret:first-child {
@@ -136,17 +138,31 @@ footer .center-footer > div {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 15px;
+    margin: 0 15px;
+    cursor: pointer;
 }
 
-/* right footer */
+footer .left-footer > div {
+    margin: 0 12px;
+}
+
+footer .center-footer .manage-p {
+    position: relative;
+}
+
+footer .center-footer .manage-p span:last-child {
+    position: absolute;
+    top: 2px;
+    right: 28px;
+}
 
 footer .right-footer {
     line-height: 55px;
     text-align: center;
-    color: #ee544c;
+    color: rgb(230, 62, 62);
     background-color: #4a4b4d;
     padding: 0 15px;
+    cursor: pointer;
 }
 
 /* debug */
