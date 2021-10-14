@@ -106,9 +106,20 @@ footer {
     justify-content: space-between;
 }
 
+footer i {
+    font-size: 35px;
+}
+
+footer .chevron i {
+    font-size: 16px;
+}
+
+footer span {
+    font-size: 15px;
+}
+
 footer .left-footer {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -118,19 +129,25 @@ footer .left-footer > div {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0px 15px;
 }
 
-footer .left-footer .chevron i {
-    font-size: 16px;
+footer .center-footer {
+    display: flex;
+    align-items: center;
 }
 
-footer .left-footer i {
-    font-size: 35px;
+footer .center-footer > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 15px;
+    
 }
 
-footer .left-footer span {
-    font-size: 15px;
-}
+
 
 
 
