@@ -105,7 +105,11 @@ main .center-col .box .user-name {
 
 footer {
     height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 /* debug */
 
@@ -125,4 +129,21 @@ main.debug {
 
 footer.debug {
     background-color: blueviolet;
+}
+
+footer.debug > div {
+    background-color: turquoise;
+    border: 1px solid black;
+}
+
+footer.debug .left-footer {
+    width: 15%;
+}
+
+footer.debug .center-footer {
+    width: 65%;
+}
+
+footer.debug .right-footer {
+    width: 10%;
 }
