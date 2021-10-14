@@ -65,6 +65,14 @@ main .caret span {
 
 main .center-col {
     width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+main .center-col .box {
+    width: 19.5%;
 }
 
 /* **** footer **** */
@@ -81,6 +89,11 @@ main.debug {
 
 .debug .caret,
 .debug .center-col {
+    border: 1px solid black;
+}
+
+.debug .center-col .box {
+    height: 19%;
     border: 1px solid black;
 }
 
